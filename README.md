@@ -2,7 +2,7 @@
 This guide will explain how to program and assemble a minisumo robot that can cover the categories of both autonomous and Radiocontrol. The Minisumo robot will be used in a fight between 2 RC robots or autonomous and the objective is take the opponent out of a ring.
 
 ## Circuit
-For creating a PCB suited for our application we started by making a list of the materials that we need for the PCB. Remeber that the parts linked in this part are for reference, so if you want to use diferent parts you are free to do it.
+For creating a PCB suited for our application we started by making a list of the materials that we need for the PCB. Remember that the parts linked in this part are for reference, so if you want to use diferent parts you are free to do it.
 ##### Important Parts
 -[PIC16F877A](https://www.arrow.com/en/products/pic16f877a-ip/microchip-technology)
 
