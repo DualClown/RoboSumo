@@ -1,5 +1,5 @@
 # RoboSumo
-This guide will explain how to program and assemble a minisumo robot that can cover the categories of both autonomous and Radiocontrol. The Minisumo robot will be used in a fight between 2 RC robots or autonomous that is performed on a ring and the objective is take the opponent out of the ring.
+This guide will explain how to program and assemble a minisumo robot that can cover the categories of both autonomous and Radiocontrol. The Minisumo robot will be used in a fight between 2 RC robots or autonomous and the objective is take the opponent out of a ring.
 
 ## Circuit
 For creating a PCB suited for our application we started by making a list of the materials that we need for the PCB. Remeber that the parts linked in this part are for reference, so if you want to use diferent parts you are free to do it.
@@ -51,6 +51,6 @@ So for the first step of designing your own PCB you have to be very careful beca
 ## Programming
 For the programming the university gave us this really neat [MPLAB PICkit 4 In-Circuit Debugger](https://www.microchip.com/developmenttools/ProductDetails/PG164140) but to make things easier we bought this [Chinese Programmer](https://www.amazon.com/BQLZR-Microcontroller-Automatic-Programming-Programmer/dp/B00EQ1Y4BU/ref=sr_1_1?crid=1ULJV4PH05T1N&keywords=pic+programmer+k150&qid=1559231113&s=gateway&sprefix=pic+prog%2Caps%2C311&sr=8-1).
 To see and understand the source code please take a look a the [C code](source_code.c).
-To create the app we used [MIT App Inventor](https://appinventor.mit.edu/explore/) and send characters to the microcontroller, then the microcontroller can make the motor driver to do the movement we need. This is the [app](Sumo.apk) we created. The only problem with the app is that it only works for android for now, maybe in the future we will make an IOS app.
+To create the app we used [MIT App Inventor](https://appinventor.mit.edu/explore/) and send characters to the microcontroller, then the microcontroller can make the motors to do the movement we need. This is the [app](Sumo.apk) we created. The only problem with the app is that it only works for android for now, maybe in the future we will make an IOS app.
 ## Assembly
 For the assembly we created a suited enclosure for the components of the car with [AutoCAD](https://www.autodesk.com/products/autocad/overview) so we can go to a place to cut it with laser in 5.5mm thick mdf, the finished [desing](Chassis_Sumo.dxf) you need AutoCAD to see it properly but [here](screenshot_chassis.PNG) is a picture of it. The red lines are indentations for the QTR sensor so we can hot glue them to the chassis. When you make all the conections and glue everything in place you have someting like the [pictures](Pictures.zip) we uploaded.
