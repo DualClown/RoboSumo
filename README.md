@@ -55,4 +55,10 @@ To create the app we used [MIT App Inventor](https://appinventor.mit.edu/explore
 ## Assembly
 For the assembly we created a suited enclosure for the components of the car with [AutoCAD](https://www.autodesk.com/products/autocad/overview) so we can go to a place to cut it with laser in 5.5mm thick mdf, the finished [desing](Chassis_Sumo.dxf) you need AutoCAD to see it properly but [here](screenshot_chassis.PNG) is a picture of it. The red lines are indentations for the QTR sensor so we can hot glue them to the chassis. When you make all the conections and glue everything in place you have someting like the [pictures](Pictures.zip) we uploaded.
 ## Problems and Conclusions
--We had a big problem when making the car when we accidentaly 
+-We had a big problem when making the car when we accidentaly rise too much the voltage of the boost converter and blow up the bluetooth module, so be carefull with those things, they are very fragile objects.
+
+-Another problem was the very famous rush current of a motor when turned on so, we needed to connect in series a low value resistor to decrease the current.
+
+-In the end the goal was met when the car perfectly worked, the next thing was to try it in a competition with the other cars from our class.
+
+-The car is 100% improvable in any aspect, even the chassis or the desing of the PCB can be changed to improve its competitiveness.
