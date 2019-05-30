@@ -14,6 +14,8 @@ For creating a PCB suited for our application we started by making a list of the
 
 -[Bluetooth Module HC-05](https://www.arrow.com/en/products/hc-05/libelium-comunicaciones-distribuidas-sl)
 
+-[TB6612FNG Dual Motor Driver Carrier](https://www.pololu.com/product/713)
+
 The crystal and the capacitors are for the oscillator needed for the microcontroller so it can work for itself, the bluetooth se we can control it with a phone  and the sensors are for help us when the sumo reachs the edge so it won't fall off the ring.
 
 ##### Power Source
@@ -29,6 +31,7 @@ The crystal and the capacitors are for the oscillator needed for the microcontro
 
 -[0.1uF Capacitor](https://www.arrow.com/en/products/com-08375/sparkfun-electronics)
 
+The power source is a very important part of this robot because if you don't supply the enough amount of current and voltage the sumo wont work properly. We need to boost the voltage of the batteries to 8V so we can use the voltage to drive the motors then step down the voltage with a linear regulator to supply the microcontroller, bluetooth and driver. The capacitor are for smoothing the input and output of the linear regulator, you can find more information about that configuration on its datasheet.
 So for the first step of designing your own PCB you have to be very careful because if you mess up any connection the whole PCB won't work and all the money you spent on it will be lost. The circuit was made using [Proteus Design Suite](https://www.labcenter.com/), we make sure to keep things very small but because we are using 40-pin PDIP the PCB get a little bit big because of that, neither the motor driver or the boost converter are big so most of the space is the microcontroller
 ## Programming
 For the programming the university gave us this really neat [MPLAB PICkit 4 In-Circuit Debugger](https://www.microchip.com/developmenttools/ProductDetails/PG164140) but to make things easier we bought this [Chinese Programmer]()
