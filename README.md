@@ -54,3 +54,5 @@ To see and understand the source code please take a look a the [C code](source_c
 To create the app we used [MIT App Inventor](https://appinventor.mit.edu/explore/) and send characters to the microcontroller, then the microcontroller can make the motors to do the movement we need. This is the [app](Sumo.apk) we created. The only problem with the app is that it only works for android for now, maybe in the future we will make an IOS app.
 ## Assembly
 For the assembly we created a suited enclosure for the components of the car with [AutoCAD](https://www.autodesk.com/products/autocad/overview) so we can go to a place to cut it with laser in 5.5mm thick mdf, the finished [desing](Chassis_Sumo.dxf) you need AutoCAD to see it properly but [here](screenshot_chassis.PNG) is a picture of it. The red lines are indentations for the QTR sensor so we can hot glue them to the chassis. When you make all the conections and glue everything in place you have someting like the [pictures](Pictures.zip) we uploaded.
+## Problems and Conclusions
+-We had a big problem when making the car when we accidentaly 
