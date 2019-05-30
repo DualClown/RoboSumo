@@ -9,7 +9,10 @@
 //LED Variables
 int8 led1=PIN_B3;
 int8 led2=PIN_B4;
-//motor variables
+/*motor variables, with the help of the TB6612FNG datasheet
+* we can determine wich combinations of inputs make the motors
+* turn clockwise or counterclockwise.
+*/
 int8 IN_A1 = PIN_C3;
 int8 IN_A2 = PIN_C0;
 int8 IN_B1 = PIN_C4;
