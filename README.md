@@ -20,7 +20,7 @@ For creating a PCB suited for our application we started by making a list of the
 
 -[Wheels](https://www.jsumo.com/slt20-aluminum-silicone-wheel-set-33mmx20mm-pair)
 
-The crystal and the capacitors are for the oscillator needed for the microcontroller so it can work for itself, the bluetooth se we can control it with a phone  and the sensors are for help us when the sumo reaches the edge so it won't fall off the ring. The TB6612FNG Motor Driver help us to rotate the motors in any direction very easily and the motors we recommend to use high torque ones so you can push the opponent out of the ring.
+The crystal and the capacitors are for the oscillator needed for the microcontroller so it can work for itself, we can control the car via bluetooth it with a phone, and the sensors are for help us when the sumo reaches the edge so it won't fall off the ring. The TB6612FNG Motor Driver help us to rotate the motors in any direction very easily,we recommend you to use high torque motors so you can push the opponent out of the ring.
 
 ##### Power Source
 -[7.4V Lipo Battery](https://www.jsumo.com/profuse-2s-74v-2800-mah-lipo-battery-jsumo)
