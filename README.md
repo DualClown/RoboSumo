@@ -2,11 +2,11 @@
 RoboSumo made in C, with the CCS C compiler and microcontroller PIC16F877A.
 
 ## Circuit
-For creating a PCB suited for our application we started by making a list of the materials that we need for the PCB.
+For creating a PCB suited for our application we started by making a list of the materials that we need for the PCB. Remeber that the parts linked in this part are for reference, so if you want to use diferent parts you are free to do it.
 ##### Important Parts
 -[PIC16F877A](https://www.arrow.com/en/products/pic16f877a-ip/microchip-technology)
 
--[4Mhz Quarz Crystal](https://www.arrow.com/en/products/hc49us-ff5f18-4.0000/ilsi-america)
+-[4Mhz Quartz Crystal](https://www.arrow.com/en/products/hc49us-ff5f18-4.0000/ilsi-america)
 
 -[2x(22pF Capacitor)](https://www.arrow.com/en/products/de11xra220kn4ap01f/murata-manufacturing)
 
@@ -20,7 +20,7 @@ For creating a PCB suited for our application we started by making a list of the
 
 -[Wheels](https://www.jsumo.com/slt20-aluminum-silicone-wheel-set-33mmx20mm-pair)
 
-The crystal and the capacitors are for the oscillator needed for the microcontroller so it can work for itself, the bluetooth se we can control it with a phone  and the sensors are for help us when the sumo reaches the edge so it won't fall off the ring. The TB6612FNG Motor Driver help us to rotate the motors in any direction very easily and the motors we recommend to use high torque ones so we can push the opponent out of the ring.
+The crystal and the capacitors are for the oscillator needed for the microcontroller so it can work for itself, the bluetooth se we can control it with a phone  and the sensors are for help us when the sumo reaches the edge so it won't fall off the ring. The TB6612FNG Motor Driver help us to rotate the motors in any direction very easily and the motors we recommend to use high torque ones so you can push the opponent out of the ring.
 
 ##### Power Source
 -[7.4V Lipo Battery](https://www.jsumo.com/profuse-2s-74v-2800-mah-lipo-battery-jsumo)
@@ -42,7 +42,12 @@ The power source is a very important part of this robot because if you don't sup
 
 -[Headers](https://www.pololu.com/category/19/connectors)
 
-So for the first step of designing your own PCB you have to be very careful because if you mess up any connection the whole PCB won't work and all the money you spent on it will be lost. The circuit was made using [Proteus Design Suite](https://www.labcenter.com/), we make sure to keep things very small but because we are using 40-pin PDIP the PCB get a little bit big because of that, neither the motor driver or the boost converter are big so most of the space is the microcontroller
+-[Glue Gun](https://www.amazon.com/ccbetter-Upgraded-Removable-Anti-hot-Flexible/dp/B01178RVI2/ref=sr_1_1_sspa?keywords=glue+gun&qid=1559229987&s=gateway&sr=8-1-spons&psc=1)
+
+-[Soldering iron](https://www.amazon.com/ANBES-Soldering-Iron-Kit-Electronics/dp/B06XZ31W3M/ref=sr_1_3?crid=1SRKZ91IKFQEH&keywords=soldering+iron&qid=1559230135&s=gateway&sprefix=solde%2Caps%2C231&sr=8-3)
+
+
+So for the first step of designing your own PCB you have to be very careful because if you mess up any connection the whole PCB won't work and all the money you spent on it will be lost. The circuit was made using [Proteus Design Suite](https://www.labcenter.com/), we make sure to keep things very small but because we are using 40-pin PDIP the PCB get a little bit big because of that, neither the motor driver or the boost converter are big so most of the space taken by the microcontroller. So we came up with this desing [PCB Robot](PCB.pdf) that incorporate everything that the robot needs, plus some headers for sensors and unused pin of the microcontroller so you can use it any way you want. And this is a [3D View of the PCB](3D PCB.pdf)
 ## Programming
 For the programming the university gave us this really neat [MPLAB PICkit 4 In-Circuit Debugger](https://www.microchip.com/developmenttools/ProductDetails/PG164140) but to make things easier we bought this [Chinese Programmer]()
 ## Assembly
